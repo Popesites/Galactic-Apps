@@ -21,7 +21,7 @@ class Features extends React.Component {
                 </div>
                 <div className="col-lg-7">
                     <div className="features-img features-right text-right">
-                        <img src="images/online-world.svg" alt="macbook image" className="img-fluid" />
+                        <img src="images/online-world.svg" alt="macbook" className="img-fluid" />
                     </div>
                 </div>
             </div>
