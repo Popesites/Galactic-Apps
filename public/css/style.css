@@ -149,7 +149,7 @@ b {
 }
 
 .bg-overlay {
-    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background: linear-gradient(-20deg, #000 0%, #202565 100%);
     opacity: 0.9;
     position: absolute;
     height: 100%;
@@ -420,7 +420,7 @@ iframe {
   =====================================*/
 
 .bg-home {
-    background: url("../images/img-2.jpg");
+    background: url("../images/milky-way-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -862,7 +862,7 @@ iframe {
 ======================================*/
 
 .bg-get-start{
-    background: url("../images/img-2.jpg");
+    background: url("../images/milky-way-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

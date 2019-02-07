@@ -8,7 +8,7 @@ class Features extends React.Component {
             <div className="row vertical-content">
                 <div className="col-lg-5">
                     <div className="features-box">
-                        <h3>Introducting Hotbar — A Less Intrusive Email Collection Popup</h3>
+                        <h3>Introducing Hotbar — A Less Intrusive Email Collection Popup</h3>
                         <p className="text-muted web-desc">In a world where users are cautious about submitting personal data, it can be hard to come across as a trustable source. That's why we created Hotbar. Hotbar, is the perfect lead-generation tool for unobstrusive email collecting.</p>
                         <ul className="text-muted list-unstyled margin-t-30 features-item-list">
                             <li className="">Create seamless promotions easily.</li>

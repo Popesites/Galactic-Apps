@@ -115,6 +115,34 @@
         });
     }
 
+    function initStars() {
+        let stars = 600;
+        let sizeVariance = .9; let starSize = 2.5;
+        let opacityVariance = 1; let w = 2100;
+        let h = 650;
+
+        let g = document.getElementById("group");
+
+        for (let i = 0 ; i < stars ; i++){
+            let x = getRandomNumber(0,w);
+            let y = getRandomNumber(0,h);
+            let r = getRandomNumber((starSize - (starSize*sizeVariance)),(starSize + (starSize*sizeVariance)));
+            let o = getRandomNumber((1 - opacityVariance),1); g.append(makeStar(x,y,r,o));
+        }
+
+        function makeStar(x,y,r,o){
+            let s = document.createElementNS("http://www.w3.org/2000/svg", "circle"); s.setAttribute("cx",x);
+            s.setAttribute("cy",y);
+            s.setAttribute("r",r);
+            s.setAttribute("fill","#FFFFFF"); s.setAttribute("fill-opacity",o); return s;
+        }
+
+        function getRandomNumber(min,max){
+            let dist = max - min;
+            return min + (Math.random()*dist);
+        }
+    }
+
     function init() {
         initNavbar();
         initButtons();
@@ -123,7 +151,6 @@
         initMagnificPopup();
         initContactForm();
         initEmailSubscription();
-        // Waves.init();
     }
 
     $(document).ready(function () {

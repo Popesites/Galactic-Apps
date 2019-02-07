@@ -9,7 +9,7 @@ class Descriptions extends React.Component {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h2 className="text-white">Build your custom Shopify app today</h2>
+                        <h2 className="text-white">Build Your Custom Shopify App Today</h2>
                         <p className="padding-t-15 home-desc">Are you looking to have a custom Shopify app built for your store? If so, get in touch with us today & we can discuss the details of your app.</p>
                             <div className="site-scroll">
                                 <a href="#contact" className="btn btn-bg-white margin-t-30 waves-effect waves-light mb-5">Contact Us</a>
