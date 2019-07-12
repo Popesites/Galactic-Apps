@@ -44,7 +44,7 @@ class Terms extends React.Component {
                         </div>
                     </div>
                     <div className="bg-pattern-effect">
-                        <img src="images/bg-pattern.png" alt=""/>
+                        <img src="images/bg-pattern.png" alt="" />
                     </div>
                 </section>
 
@@ -82,11 +82,11 @@ class Terms extends React.Component {
                                 <p>We employ the use of cookies. By using Galactic Apps's website you consent to the use
                                     of cookies
                                     in accordance with Galactic Apps’s privacy policy.</p><p>Most of the modern day
-                                interactive web sites
-                                use cookies to enable us to retrieve user details for each visit. Cookies are used in
-                                some areas of our site
-                                to enable the functionality of this area and ease of use for those people visiting. Some
-                                of our
+                            interactive web sites
+                            use cookies to enable us to retrieve user details for each visit. Cookies are used in
+                            some areas of our site
+                            to enable the functionality of this area and ease of use for those people visiting. Some
+                            of our
                                 affiliate / advertising partners may also use cookies.</p><h2>License</h2>
                                 <p>Unless otherwise stated, Galactic Apps and/or it’s licensors own the intellectual
                                     property rights for
@@ -176,12 +176,12 @@ class Terms extends React.Component {
                                 <p>If you are among the organizations listed in paragraph 2 above and are interested in
                                     linking to our website,
                                     you must notify us by sending an e-mail to <a href="mailto:hello@galacticapps.com"
-                                                                                  title="send an email to hello@galacticapps.com">hello@galacticapps.com</a>.
-                                    Please include your name, your organization name, contact information (such as a
-                                    phone number and/or e-mail
-                                    address) as well as the URL of your site, a list of any URLs from which you intend
-                                    to link to our Web site,
-                                    and a list of the URL(s) on our site to which you would like to link. Allow 2-3
+                                        title="send an email to hello@galacticapps.com">hello@galacticapps.com</a>.
+Please include your name, your organization name, contact information (such as a
+phone number and/or e-mail
+address) as well as the URL of your site, a list of any URLs from which you intend
+to link to our Web site,
+and a list of the URL(s) on our site to which you would like to link. Allow 2-3
                                     weeks for a response.</p>
 
                                 <p>Approved organizations may hyperlink to our Web site as follows:</p>
@@ -268,13 +268,13 @@ class Terms extends React.Component {
                 </section>
 
                 {/* SocialMedia Component*/}
-                <SocialMedia/>
+                <SocialMedia />
 
                 {/* Footer Component*/}
-                <Footer/>
+                <Footer />
 
                 {/* FooterLinks Component*/}
-                <FooterLinks/>
+                <FooterLinks />
 
             </Aux>
         )
